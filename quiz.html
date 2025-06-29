@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Quiz Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <!-- Header with timer, progress bar, and dark/light mode toggle -->
+    <header class="quiz-header">
+        <div class="timer" id="timer">05:00</div>
+        <div class="progress-bar-container">
+            <div id="progress-bar" class="progress-bar"></div>
+        </div>
+        <button id="mode-toggle" aria-label="Toggle Dark/Light Mode">
+            Toggle Mode
+        </button>
+    </header>
+
+    <!-- Main quiz container -->
+    <main id="quiz-container">
+        <div class="question-counter" id="question-counter">Question 1 of 10</div>
+        <div class="question" id="question-text">
+            <!-- Question text inserted via JavaScript -->
+        </div>
+        <div class="options-container" id="options-container">
+            <!-- Four answer options inserted via JavaScript -->
+        </div>
+
+        <!-- Navigation buttons -->
+        <div class="navigation-buttons">
+            <button id="prev-btn" disabled>Previous</button>
+            <button id="skip-btn">Skip Question</button>
+            <button id="next-btn">Next Question</button>
+        </div>
+    </main>
+
+    <!-- Summary container (hidden initially) -->
+    <section id="quiz-summary" class="hidden">
+        <h2>Quiz Summary</h2>
+        <div class="summary-content">
+            <div class="summary-item">
+                <span>Total Questions Attempted</span>
+                <span id="total-attempted">0</span>
+            </div>
+            <div class="summary-item">
+                <span>Correct Answers</span>
+                <span id="correct-answers">0</span>
+            </div>
+            <div class="summary-item">
+                <span>Final Score</span>
+                <span id="final-score">0%</span>
+            </div>
+            <div class="summary-item">
+                <span>Time Taken</span>
+                <span id="time-taken">00:00</span>
+            </div>
+        </div>
+        <button id="restart-btn" class="restart-button">Restart Quiz</button>
+    </section>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
