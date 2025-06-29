@@ -40,3 +40,12 @@ The entire app is mobile-friendly and responsive, thanks to media queries and a 
 - **LocalStorage API** – to store and retrieve theme preferences
 
 This project has been a really fun and rewarding learning experience. It taught me how to combine clean design with smart logic, and how little things like randomizing answers or showing real-time feedback can go a long way in making a web app feel polished and complete. There's still room to grow—maybe by adding sound effects, a backend for saving user data, or more categories—but for now, I'm proud of how functional and fun it is.
+
+### OUTPUT:
+<img width="1440" alt="Screenshot 2025-06-29 at 3 48 36 PM" src="https://github.com/user-attachments/assets/cf2dbf9f-7cff-4a60-b5ce-db4aec72197e" />
+<img width="1440" alt="Screenshot 2025-06-29 at 3 48 47 PM" src="https://github.com/user-attachments/assets/0a0d3f6b-0b66-4dfa-b372-57b5b1787294" />
+<img width="1440" alt="Screenshot 2025-06-29 at 3 49 00 PM" src="https://github.com/user-attachments/assets/55c69b6d-1829-4b80-9189-7d6e20724165" />
+<img width="1440" alt="Screenshot 2025-06-29 at 3 49 12 PM" src="https://github.com/user-attachments/assets/1a8e150a-5265-4186-a728-215d279e758a" />
+<img width="1440" alt="Screenshot 2025-06-29 at 3 49 31 PM" src="https://github.com/user-attachments/assets/4bfe9e43-b985-4fb2-82d1-916bea9bf2d3" />
+<img width="1440" alt="Screenshot 2025-06-29 at 3 48 27 PM" src="https://github.com/user-attachments/assets/584a1181-4922-45c2-bdb9-10d35ee75c20" />
+
